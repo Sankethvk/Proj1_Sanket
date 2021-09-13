@@ -10,13 +10,17 @@ namespace MyFirst
     {
         static void Main(string[] args)
         {
-            int value1; int value2; int value3;
+            int value1,value2,value3,value4,value5;
             Console.Write("enter value1 : ");
             value1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("enter value2 : ");
             value2 = Convert.ToInt32(Console.ReadLine());
             value3 = value1 * value2;
-            Console.WriteLine("Result : " + value3);
+            value4 = value1 - value2;
+            value5 = value1 / value2;
+            Console.WriteLine("Multiplication Result : " + value3);
+            Console.WriteLine("Subtraction Result : " + value4);
+            Console.WriteLine("Division Result : " + value5);
             Console.Read();
 
         }
